@@ -51,23 +51,8 @@ a{
 
 
 
-.content{
-    /* border: 1px solid black; */
-    color: white;
-    font-family:poppins;
-}
-.content h1{
-    font-size: 48px;
-}
-.content h4{
-    font-size: 34px;
-}
-.soft{
-    color:rgb(23, 23, 168);
-}
-.state{
-    color: green ;
-}
+
+
 .download{
     /* border: 1px solid black; */
     background-color: #0B0B45;
@@ -84,9 +69,14 @@ a{
     color: #fff;
 }
 
-/* HEADER STYLE ENDS HERE */
+/* INTRO STYLES */
 
-
+.soft{
+    color:rgb(23, 23, 168);
+}
+.state{
+    color: green ;
+}
 
 .home-parent-box{
     display:flex;
@@ -107,11 +97,17 @@ width: 100%;
     margin-left: 4rem;
     color: #fff;
 }
+.contacts-img{
+    display: flex;
+    gap: 10px;
+    margin-left: 5rem;
+}
 
 .more{
     background-color: #0B0B45;
     color: #fff;
-    width: 130px;
+    width: 90px;
+    height: 20px;
     padding: 10px;
     border-radius: 20px;
     margin-left: 5rem;
@@ -119,7 +115,7 @@ width: 100%;
 
 }
 .more a {
-    font-size: 16px;
+    font-size: 15px;
     color:#fff;
 }
 
