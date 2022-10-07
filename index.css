@@ -148,6 +148,20 @@ width: 100%;
 .sing-item p {
     font-size: 5px;
 }
+.zoom-image{
+    transition: transform.5s;
+    -webkit-transition: transform.5s;
+    -moz-transition: transform.5s;
+    -ms-transition: transform.5s;
+    -o-transition: transform.5s;
+}
+.zoom-image:hover{
+    transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(0.9);
+    -ms-transform:scale(0.9);
+    -o-transform:scale(0.9);
+}
 .project-imga-link{
     display: flex;
     justify-content: center;
