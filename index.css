@@ -148,6 +148,16 @@ width: 100%;
 .sing-item p {
     font-size: 5px;
 }
+.project-imga-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;}
+
+/* }PROJECTS */
+.pro-h{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width :375px) {
 
@@ -212,7 +222,10 @@ width: 100%;
     gap: 10px;
     flex-direction: column;
 }
-
+/* Projects */
+.project-imga-link{
+    flex-direction: column;
+}
 
 }
 @media (max-width :475px) {
@@ -318,4 +331,8 @@ width: 100%;
     flex-direction: column;
 }
 
+/* Projects */
+.project-imga-link{
+    flex-direction: column;
+}
 }
