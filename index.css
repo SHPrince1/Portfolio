@@ -161,7 +161,17 @@ width: 100%;
     background-color:red;
 }
 
-
+/* intro */
+.home-parent-box{
+    display:flex;
+    flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+.home-image{
+    display:flex;
+    justify-content: center;
+}
 
 }
 @media (max-width :475px) {
@@ -239,5 +249,17 @@ width: 100%;
     max-width: 900px;
     margin: 0;
     gap: 10px;
+}
+
+/* intro */
+.home-parent-box{
+    display:flex;
+    flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+.home-image{
+    display:flex;
+    justify-content: center;
 }
 }
