@@ -149,6 +149,8 @@ width: 100%;
     font-size: 5px;
 }
 .zoom-image{
+    width:150px ;
+    height:150px;
     transition: transform.5s;
     -webkit-transition: transform.5s;
     -moz-transition: transform.5s;
@@ -239,6 +241,17 @@ width: 100%;
 /* Projects */
 .project-imga-link{
     flex-direction: column;
+    width:110%;
+}
+.zoom-image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+
+    
 }
 
 }
@@ -349,4 +362,15 @@ width: 100%;
 .project-imga-link{
     flex-direction: column;
 }
+.zoom-image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+
+    
+}
+
 }
