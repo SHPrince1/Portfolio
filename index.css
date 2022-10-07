@@ -263,6 +263,9 @@ width: 100%;
 .menu:hover{
     background-color:red;
 }
+.download{
+    display: none;
+}
 
 /* intro */
 .home-parent-box{
@@ -394,6 +397,9 @@ width: 100%;
     max-width: 900px;
     margin: 0;
     gap: 10px;
+}
+.download{
+    display: none;
 }
 
 /* intro */
