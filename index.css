@@ -264,7 +264,7 @@ width: 100%;
     display: flex;
     gap: 10px;
 }
-@media (max-width :375px) {
+@media (max-width :395px) {
 
     .custom-ul{
     display: flex;
@@ -326,11 +326,21 @@ width: 100%;
 
 }
 .about-box-p{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 100%;
+    font-size: 10px;
+    
+    /* margin: 0 auto; */
+}
+
+.about-box-p p{
+    /* border: 1px solid black; */
+    /* width: 100%; */
     font-size: 20px;
-    padding: 0 20px;
-    margin: 0 auto;
+    justify-content: center;
+    padding: 0px;
+    
+    /* margin: 0 auto; */
 }
 .about-box img{
     justify-content: center;
