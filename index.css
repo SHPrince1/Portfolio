@@ -10,7 +10,8 @@ a{
     /* display: flex; */
     /* justify-content: space-evenly; */
     /* max-width: 900px; */
-    margin: 70px 100px;
+    margin: 120px 210px;
+    padding: 1px;
     gap: 388px;
 
 }
@@ -84,33 +85,37 @@ justify-content: space-between;
 width: 100%;
 }
 .line{
-    margin-top:1rem;
+    margin-top: 1rem;
     margin-left: 3rem;
-    width: 5px;
-    height: 10rem;
-    background-color:#707070;
+    width: 4px;
+    height: 11rem;
+    background-color: #707070;
 }
 .about{
-    /* border: 1px solid #fff; */
-    width: 250px;
+    width: 380px;
+    font-size: 21px;
     margin-top: -10rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
     color: #fff;
+    font-family: poppins;
 }
 .contacts-img{
     display: flex;
     gap: 10px;
-    margin-left: 5rem;
+    margin-left: 6rem;
 }
 
 .more{
     background-color: #0B0B45;
     color: #fff;
-    width: 90px;
-    height: 20px;
-    padding: 10px;
+    width: 118px;
+    height: 23px;
+    display: flex;
+    padding: 12px 20px;
     border-radius: 20px;
     margin-left: 5rem;
+    margin-top: 1rem;
+    justify-content: center;
     margin-top: 1rem;
 
 }
@@ -122,8 +127,38 @@ width: 100%;
 .about-box{
     /* border: 1px solid #fff; */
     display: flex;
-    gap: 20px;
+    /* flex-direction: column; */
+    gap: 60px;
 
+}
+.about-box p{
+    font-size: 20px;
+    /* justify-content: center;
+    display: flex;
+    padding: 0 25px ; */
+}
+.about-sh{
+    justify-content: center;
+    display:flex;
+}
+.about-box img{
+    /* border:1px solid black; */
+    border-radius: 50% 0 50% 50%;
+    /* float: left; */
+    -webkit-border-radius: 50% 0 50% 50%;
+    -moz-border-radius: 50% 0 50% 50%;
+    -ms-border-radius: 50% 0 50% 50%;
+    -o-border-radius: 50% 0 50% 50%;
+}
+.home-image-crop{
+    /* border: 1px solid white; */
+    width:500px;
+    height:500px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 /* SKILLS */
@@ -134,6 +169,7 @@ width: 100%;
 .skill-box{
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 .skill-item{
     display: flex;
@@ -142,15 +178,15 @@ width: 100%;
 .sing-item{
     background-color: #84858a;
     color: #fff;
-    padding: 5px 40px;
-    font-size: 10px;
+    padding: 10px 40px;
+    font-size: 16px;
 }
 .sing-item p {
     font-size: 5px;
 }
 .zoom-image{
-    width:150px ;
-    height:150px;
+    width:300px ;
+    height:250px;
     transition: transform.5s;
     -webkit-transition: transform.5s;
     -moz-transition: transform.5s;
@@ -176,7 +212,7 @@ width: 100%;
 }
 
 /* contacts */
-.contact-box h3{
+.contact-box h1{
     justify-content:center;
     display: flex;
 }
@@ -184,15 +220,12 @@ width: 100%;
     background-color: #fff;
     justify-content: center;
     display: flex;
-    flex-direction:column;
-    width: 50%;
-    height:250px;
-    margin:0 auto;
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -webkit-border-radius: 40px;
 }
 .contact p{
     color: #fff;
@@ -200,7 +233,7 @@ width: 100%;
     padding: 10px;
     border-radius: 20px;
     line-height: 1;
-    width: 50%;
+    width: 200px;
     margin: 0 auto;
     display: flex;
     background-color: #0B0B45;
@@ -208,6 +241,10 @@ width: 100%;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 /* footer */
 .footer{
@@ -216,6 +253,7 @@ width: 100%;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
+    height:230px;
 }
 .footer-h2{
     justify-content:center;
@@ -260,14 +298,15 @@ width: 100%;
     right: 2rem;
     top: 3rem;
 }
-.menu:hover{
-    background-color:red;
-}
+
 .download{
     display: none;
 }
 
 /* intro */
+.text-area h1, h4{
+    padding: 5px 20px;
+}
 .home-parent-box{
     display:flex;
     flex-direction: column;
@@ -286,11 +325,55 @@ width: 100%;
     gap: 20px;
 
 }
+.about-box-p{
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 20px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.about-box img{
+    justify-content: center;
+    /* border: 1px solid #fff; */
+    display: flex;
+    float: right;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 70px;
+}
+
+.home-image-crop{
+    /* border: 1px solid red; */
+    width:450px;
+    height:500px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
 /* skills */
 .skill-box {
     display: flex;
     gap: 10px;
     flex-direction: column;
+}
+.skill-box img{
+    /* border: 1px solid white; */
+    width: 100%;
+    justify-content: center;
+    padding: 0 65px;
+}
+.skill-item{
+    /* border: 2px solid black; */
+    padding: 0 35px;
 }
 /* Projects */
 .project-imga-link{
@@ -403,6 +486,9 @@ width: 100%;
 }
 
 /* intro */
+.text-area h1, h4{
+    padding: 5px 20px;
+}
 .home-parent-box{
     display:flex;
     flex-direction: column;
@@ -410,8 +496,11 @@ justify-content: space-between;
 width: 100%;
 }
 .home-image{
-    display:flex;
+    display: flex;
     justify-content: center;
+    border: 1px solid #fff;
+    width: 110%;
+    margin: 0 auto;
 }
 /* ABOUT */
 .about-box{
@@ -421,6 +510,25 @@ width: 100%;
     gap: 20px;
 
 }
+.about-box-p{
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 20px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.about-box img{
+    justify-content: center;
+    /* border: 1px solid #fff; */
+    display: flex;
+    float: right;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 70px;
+}
+
 /* skills */
 .skill-box {
     display: flex;
