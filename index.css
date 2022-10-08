@@ -391,6 +391,12 @@ width: 100%;
     font-size: 25px;
     width: 450px;
 }
+.h-skills {
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+}
 .skill-item{
     /* border: 2px solid black; */
     padding: 0 35px;
