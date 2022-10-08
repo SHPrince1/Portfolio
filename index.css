@@ -645,7 +645,7 @@ width: 100%;
     flex-direction: column;
 }
 .skill-box img{
-    width: 470px;
+    width: 600px;
     justify-content: center;
     padding: 0 10px;
 }
@@ -666,6 +666,12 @@ width: 100%;
     /* border: 2px solid black; */
     padding: 0 35px;
 }
+.sing-item {
+    background-color: #84858a;
+    color: #fff;
+    padding: 10px 65px;
+    font-size: 16px;
+}
 /* Projects */
 
 .pro-h {
@@ -675,10 +681,11 @@ width: 100%;
 }
 .project-imga-link{
     flex-direction: column;
-    width:500px;
+    width:600px;
+    padding: 0 10px;
 }
 .zoom-image{
-    width:480px !important;
+    width:570px !important;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -689,7 +696,7 @@ width: 100%;
 }
 /* contact */
 .contact{
-    width: 450px !important;
+    width: 570px !important;
     display: flex;
     justify-content: center;
     padding: 0px 10px;
@@ -710,7 +717,7 @@ width: 100%;
         justify-content: center;
         display: flex;
         margin: 0 auto;
-        width: 500px !important;
+        width: 570px !important;
         flex-direction: column;
         margin-top: 30px
     }
