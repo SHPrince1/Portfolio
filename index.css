@@ -312,6 +312,7 @@ width: 100%;
 .home-parent-box{
     display:flex;
     flex-direction: column;
+    margin-top : 8rem !important;
 justify-content: space-between;
 width: 100%;
 }
