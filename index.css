@@ -617,14 +617,14 @@ width: 100%;
 
 .home-image-crop{
     /* border: 1px solid red; */
-    width: 500px;
+    width: 585px;
     height: 500px;
     border-radius: 40px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    padding: 10px 64px;
+    padding: 10px 0px;
     justify-content: center;
+    margin-left: 1rem;
 }
 /* skills */
 .skill-box {
