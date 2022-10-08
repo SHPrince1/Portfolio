@@ -409,7 +409,7 @@ width: 100%;
 .skill-box-img{
     width:500px;
     height:350px;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 .skill-item {
     display: flex;
@@ -449,14 +449,14 @@ width: 100%;
     margin: 0 auto;
     width: 500px;
     height: 300px;
-    padding: 0 22px;
+    padding: 0 40px;
 
     
 }
 /* contact */
 .contact{
-    width: 450px;
-    padding: 0 20px;
+    width: 435px;
+    padding: 0 40px;
     margin-left: 2rem;
 }
 
@@ -476,7 +476,7 @@ width: 100%;
     flex-direction: column;
     margin-top: 30px;
     width: 450px;
-    padding: 0 30px;
+    padding: 0 40px;
     margin-left: 1rem;
 
 }
