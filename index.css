@@ -118,11 +118,7 @@ width: 100%;
     justify-content: center;
     margin-top: 1rem;
     transition: 0.5s ease-in;
-    all-webkit-transition:;
-    -moz-transition: 0.5s ease-in;
-    -ms-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
-    -webkit-transition: 0.5s ease-in;
+    
 }
 .more:hover{
     margin-left: 5.5rem;
@@ -297,10 +293,7 @@ width: 100%;
     padding: 0;
     transition:0.5s ease-in ;
     right:  -100%;
-    -webkit-transition:0.5s ease-in ;
-    -moz-transition:0.5s ease-in ;
-    -ms-transition:0.5s ease-in ;
-    -o-transition:0.5s ease-in ;
+    
 }
 .custom-ul.show{
     display:flex;
@@ -346,6 +339,9 @@ width: 100%;
     z-index: 1;
     right: 2rem;
     top: 3rem;
+}
+.none{
+    background-color:red;
 }
 .logo{
     z-index: 999;
@@ -493,7 +489,9 @@ width: 100%;
 }
 
 @media (max-width:385px) {
-
+.logo{
+    margin-left: -10rem;
+}
     .custom-ul{
         display:flex;
         position:fixed;
@@ -565,7 +563,7 @@ width: 100%;
     position: fixed;
     z-index: 1;
     right: 2rem;
-    top: 3rem;
+    top: 1rem;
 }
 
 .download{
