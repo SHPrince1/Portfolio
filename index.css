@@ -488,7 +488,7 @@ width: 100%;
 }
 }
 
-@media (max-width:385px) {
+@media (max-width:320px) {
 .logo{
     margin-left: -10rem;
 }
