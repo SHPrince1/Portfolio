@@ -299,6 +299,16 @@ width: 100%;
     justify-content:center;
     display: flex;
 }
+.footer-imgs{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+.footer-imgs img{
+    display: flex !important;
+    margin: 0 auto;
+    flex-direction: row;
+}
 .contacts-imgs , .footer-copy{
     justify-content: center;
     display: flex;
@@ -537,6 +547,9 @@ width: 100%;
     margin: 0 auto;
     gap: 20px;
 }
+.footer-imgs a{
+    z-index: 999;
+}
 }
 
 @media (max-width:385px) {
@@ -553,13 +566,10 @@ width: 100%;
         align-items: center;
         inset: 0 0 0 30%;
         padding: 0;
-        transition:0.5s ease-in ;
+        transition:0.1s ease-in ;
         right:  -100%;
-        -webkit-transition:0.5s ease-in ;
-        -moz-transition:0.5s ease-in ;
-        -ms-transition:0.5s ease-in ;
-        -o-transition:0.5s ease-in ;
-    }
+        
+}
     .custom-ul.show{
         display:flex;
         position:fixed;
@@ -573,13 +583,13 @@ width: 100%;
         align-items: center;
         inset: 0 0 0 0%;
         padding: 0;
-        transition: 0.5s ease-in ;
+        transition: 0.2s ease-in ;
         right: 0;
-        -webkit-transition: 0.5s ease-in ;
-        -moz-transition: 0.5s ease-in ;
-        -ms-transition: 0.5s ease-in ;
-        -o-transition: 0.5s ease-in ;
-    }
+        -webkit-transition: 0.2s ease-in ;
+        -moz-transition: 0.2s ease-in ;
+        -ms-transition: 0.2s ease-in ;
+        -o-transition: 0.2s ease-in ;
+}
     
     .custom-ul a{
         text-decoration: none;
