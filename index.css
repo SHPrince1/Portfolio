@@ -397,7 +397,7 @@ width: 100%;
 .about-box img{
     justify-content: center;
     /* border: 1px solid #fff; */
-    display: flex;
+    display: none !important;
     float: right;
     width: 100%;
     margin: 0 auto;
@@ -594,6 +594,7 @@ width: 100%;
 
 }
 .about-box img{
+    display: none !important;
     width: 330px! important;
     padding: 0 141px !important;
 }
