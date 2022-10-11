@@ -1,3 +1,6 @@
+alert("Welcome to Prince' portal")
+
+
 const menu = document.querySelector(".menu");
 const showUl = document.querySelector(".custom-ul");
 const dis = document.querySelector(".none");
