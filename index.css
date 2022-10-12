@@ -260,6 +260,7 @@ width: 100%;
 .new-proj-box{
     display:flex;
     gap: 10px;
+    justify-content:center;
 }
 
 .m-boxs-imgs{
