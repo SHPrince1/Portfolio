@@ -879,34 +879,20 @@ width: 100%;
     width: 450px;
 }
 .h-skills {
-    /* justify-content: center;  */
-    /* display: flex; */
-    /* justify-content: center; */
+   
     font-size: 40px;
     margin-left: 0rem !important;
-    /* padding: 20px ; */
-    /* width: 650px;
-
     
-    width: 650px;
-}
-.skill-item{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
     margin-left: 3rem;
+    margin-top: 8rem
 }
 .sing-item {
     justify-content: center;
     background-color: #1aa907;
     color: #fff;
+    font-size: 15px;
+    height: 30px;
    
-    font-size: 16px;
-    margin: 10px 0px;
-    display: flex;
-    align-items: center;
-    /* gap: 20px; */
 }
 .skill-item a{
     z-index: 999;
