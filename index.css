@@ -259,7 +259,7 @@ width: 100%;
 /* NEW PROJECTS */
 .new-proj-box{
     display:flex;
-    gap: 10px;
+    gap: 30px;
     justify-content:center;
 }
 
