@@ -15,6 +15,17 @@ body{
 a{
     text-decoration:none;
 }
+button{
+    background-color:#1aa907;
+    color:#fff;
+    cursor: pointer;
+    padding:10px 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 
 .container {
     /* display: flex; */
@@ -781,7 +792,10 @@ display: flex;
 
 /* intro */
 .text-area h1, h4{
-    padding: 5px 20px;
+    padding: 5px 0px;
+    width: 400px;
+    /* justify-content: center; */
+    margin-left: 3rem;
 }
 .home-parent-box{
     display:flex;
