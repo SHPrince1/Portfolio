@@ -26,6 +26,9 @@ button{
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
+.m-download{
+    display: none;
+}
 
 .container {
     /* display: flex; */
@@ -382,8 +385,28 @@ width: 100%;
 
 
 @media (max-width :500px) {
-
-    
+/* Mobile cv */
+    .m-download{
+        position: fixed;
+        bottom: 0px;
+        margin-bottom: 70px;
+        padding:10px 60px;
+        border-radius: 10%;
+        width: 2%;
+        height:5%;
+        justify-content: center;
+        display: flex;
+        color:#fff !important;
+        background-color: rgba(70, 143, 21, 0.3);
+        
+    }
+    .m-download a{
+        color: #fff;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+    }
 
     .custom-ul{
     display:flex;
@@ -712,6 +735,27 @@ display: flex;
 @media (max-width:385px) {
 .logo{
     margin-left: -10rem;
+}
+.m-download{
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 70px;
+    padding:10px 60px;
+    border-radius: 10%;
+    width: 2%;
+    height:5%;
+    justify-content: center;
+    display: flex;
+    color:#fff !important;
+    background-color: rgba(70, 143, 21, 0.3);
+    
+}
+.m-download a{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
 }
     .custom-ul{
         display:flex;
