@@ -39,6 +39,7 @@ button{
     gap: 388px;
 
 }
+
 .header{
     display:flex;
     position: fixed;
@@ -272,9 +273,15 @@ width: 100%;
 
 /* NEW PROJECTS */
 .new-proj-box{
-    display:flex;
+    /* display:flex; */
+    /* flex-direction: column; */
     gap: 30px;
     justify-content:center;
+}
+.proj-row{
+    justify-content: center;
+    display:flex;
+    gap: 35px;
 }
 
 .m-boxs-imgs{
@@ -672,6 +679,9 @@ display: flex;
     padding: 10px;
     
 }
+.proj-row{
+    flex-direction: column;
+}
 .mp-boxs-imgs{
     width:630px;
 }
@@ -1034,6 +1044,9 @@ width: 100%;
     margin-left: 1rem;
     padding: 10px;
     
+}
+.proj-row{
+    flex-direction: column;
 }
 .mp-boxs-imgs{
     width:630px;
